@@ -7,6 +7,9 @@ html{
     font-family: arial;
     font-size: 62.5%;
 }
+body{
+    background-color: #dcdcdc;
+}
 header{
     background: linear-gradient(TO right, #0000CD, DeepSkyBlue );
     color: #fff;
@@ -29,8 +32,6 @@ footer{
     width: 100%; 
     margin: 0;
     text-shadow: 1px 1px 1px #0000;
-   
-
 }
 .conteudo{
     font-size: 1.6rem;
@@ -45,10 +46,16 @@ footer{
     font-size: 1.6rem;
     background-color: #fff;
     padding: 1.5rem;
-    text-align: justify;
-   margin: 0 auto;
-   max-width: 95%;
+    text-align: center;
+   margin-top: 4rem;
+   max-width: 70%;
    padding-top: 10rem;
+   margin-left: auto ;
+   margin-right: auto;
+   position: relative;
+   z-index: 1;
+   border-radius: 20px;
+   
 
 }
 h1{
@@ -87,7 +94,7 @@ figure{
     position: fixed;
     text-align: center;
     margin-top: 6rem;
-    z-index: 1;
+   
 }
 #grid-conteudo{
     background-color: #dcdcdc;
