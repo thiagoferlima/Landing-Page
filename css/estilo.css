@@ -18,15 +18,17 @@ header{
     height: 100px;
 }
 footer{
-    background: linear-gradient(to right, #0000CD, DeepSkyBlue );
+    background: linear-gradient(to right, #0000CD, DeepSkyBlue);
     color: #fff;
     font-size: 1.8rem;
     padding: 1rem;
     text-align: center;
-    position: fixed;
-    width: 100%;
- 
-
+    position: fixed; 
+    left: 0;    
+    bottom: 0;
+    width: 100%; 
+    margin: 0;
+    text-shadow: 1px 1px 1px #0000;
    
 
 }
