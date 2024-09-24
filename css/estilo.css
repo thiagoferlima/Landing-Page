@@ -24,14 +24,11 @@ footer{
     background: linear-gradient(to right, #0000CD, DeepSkyBlue);
     color: #fff;
     font-size: 1.8rem;
-    padding: 1rem;
+    padding: 1rem; /* Adicione padding, se necessário */
     text-align: center;
-    position: fixed; 
-    left: 0;    
-    bottom: 0;
-    width: 100%; 
-    margin: 0;
-    text-shadow: 1px 1px 1px #0000;
+    width: 100%; /* Garantindo que ocupem 100% da largura */
+    height: 100%; /* Garantindo que ocupem 100% da altura */
+
 }
 .conteudo{
     font-size: 1.6rem;
@@ -40,7 +37,6 @@ footer{
     text-align: justify;
    margin: 0 auto;
    max-width: 95%;
-   
 }
 .conteudo-topo{
     font-size: 1.6rem;
